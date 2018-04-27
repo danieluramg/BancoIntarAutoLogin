@@ -3,7 +3,7 @@
 Injeta na página uma popup jQuery para escolher entre conta PF e PJ (MEI) para preencher automaticamente os campos
 e injeta um campo de senha Digitável, que simula os cliques no teclado numérico.
 
-Preencha o número de suas contas PF e PJ (MEI) nas linhas 28 e 29 (Entre as ' ')
+Preencha o número de suas contas PF e PJ (MEI) nas linhas 30 e 31 (Entre as ' ')
 Se não tiver uma conta PJ pode deixar em branco o campo correspondente, assim não irá aparecer a popup e será
 preenchido automaticamente com o número de sua conta PF
 
@@ -14,11 +14,13 @@ clique em "Entrar" (não clique no "Confirmar"), que o script irá simular os cl
 */
 // ==UserScript==
 // @name	Banco Inter AutoLogin
-// @author	daniel.uramg@gmail.com
+// @author	Daniel Plácido (daniel.uramg@gmail.com)
+// @website https://github.com/danieluramg/BancoInterAutoLogin/
 // @version	2.0
-// @downloadURL	http://ideias.2p.fm/userscripts/bancointer.user.js
+// @downloadURL	https://github.com/danieluramg/BancoInterAutoLogin/raw/master/bancointerautologin.user.js
+// @updateURL	https://github.com/danieluramg/BancoInterAutoLogin/raw/master/bancointerautologin.user.js
 // @require     https://code.jquery.com/jquery-3.3.1.min.js
-// @require     https://github.com/danieluramg/BancoInterAutoLogin/bancointerautologin.user.js
+// @require     https://code.jquery.com/ui/1.12.1/jquery-ui.js
 // @match	https://internetbanking.bancointer.com.br/login.jsf
 // @grant GM_addStyle
 // ==/UserScript==
