@@ -14,7 +14,7 @@ e injeta um campo de senha Digitável, que simula os cliques no teclado numéric
 
 ## Instalação e uso:
 - Primeiro instale o complemento Tampermonkey no Google Chrome: [https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-- Depois instale o Userscript do MercadoFacil: [http://raw.githubusercontent.com/danieluramg/MercadoFacil/master/mercadofacil.user.js](http://raw.githubusercontent.com/danieluramg/MercadoFacil/master/mercadofacil.user.js)
+- Depois instale o Userscript do MercadoFacil: [https://github.com/danieluramg/BancoInterAutoLogin/raw/master/bancointerautologin.user.js](https://github.com/danieluramg/BancoInterAutoLogin/raw/master/bancointerautologin.user.js)
 
 -Preencha o número de suas contas PF e PJ (MEI) nas linhas 28 e 29 (Entre as ' ')
 Se não tiver uma conta PJ pode deixar em branco o campo correspondente, assim não irá aparecer a popup e será
