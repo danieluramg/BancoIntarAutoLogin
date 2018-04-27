@@ -27,8 +27,8 @@ clique em "Entrar" (não clique no "Confirmar"), que o script irá simular os cl
 GM_addStyle('@import "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css";');
 
 //Digite o número de suas contas
-pf = '9468820'; //Pessoa Física
-pj = '11848375'; //Pessoa Jurídica (MEI)
+pf = '123'; //Pessoa Física
+pj = ''; //Pessoa Jurídica (MEI)
 
 $(document).ready(function(){
 
