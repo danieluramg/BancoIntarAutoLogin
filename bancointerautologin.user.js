@@ -1,5 +1,6 @@
 /*
-Preencha o número de suas contas PF e PJ (MEI) nas linhas 27 e 28 (Entre as ' ')
+
+Preencha o número de suas contas PF e PJ (MEI) nas linhas 28 e 29 (Entre as ' ')
 Se não tiver uma conta PJ pode deixar em branco o campo correspondente, assim não irá aparecer a popup e será
 preenchido automaticamente com o número de sua conta PF
 
@@ -12,7 +13,7 @@ clique em "Entrar" (não clique no "Confirmar"), que o script irá simular os cl
 // @name	Banco Inter AutoLogin
 // @author	Daniel Plácido (daniel.uramg@gmail.com)
 // @website https://github.com/danieluramg/BancoInterAutoLogin/
-// @description Injeta na página uma popup jQuery para escolher entre conta PF e PJ (MEI) para preencher automaticamente os campos e injeta um campo de senha Digitável, que simula os cliques no teclado numérico.
+// @description	Injeta na página uma popup jQuery para escolher entre conta PF e PJ (MEI) para preencher automaticamente os campos e injeta um campo de senha Digitável, que simula os cliques no teclado numérico.
 // @version	2.0
 // @downloadURL	https://github.com/danieluramg/BancoInterAutoLogin/raw/master/bancointerautologin.user.js
 // @updateURL	https://github.com/danieluramg/BancoInterAutoLogin/raw/master/bancointerautologin.user.js
@@ -24,7 +25,7 @@ clique em "Entrar" (não clique no "Confirmar"), que o script irá simular os cl
 GM_addStyle('@import "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css";');
 
 //Digite o número de suas contas
-pf = '123'; //Pessoa Física
+pf = '234'; //Pessoa Física
 pj = ''; //Pessoa Jurídica (MEI)
 
 $(document).ready(function(){
