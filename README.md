@@ -11,6 +11,8 @@ ________________________________________________________________________________
 Injeta na página uma popup jQuery para escolher entre conta PF e PJ (MEI) para preencher automaticamente os campos
 e injeta um campo de senha Digitável, que simula os cliques no teclado numérico.
 
+![](http://www.ideias.pw/wp-content/uploads/2017/12/Internet-Banking-Banco-Inter-1.png)
+![](http://www.ideias.pw/wp-content/uploads/2017/12/Internet-Banking-Banco-Inter.png)
 
 ## Instalação e uso:
 - Primeiro instale o complemento Tampermonkey no Google Chrome: [https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
