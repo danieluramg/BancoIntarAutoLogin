@@ -25,10 +25,12 @@ clique em "Entrar" (não clique no "Confirmar"), que o script irá simular os cl
 GM_addStyle('@import "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css";');
 
 //Digite o número de suas contas
-pf = '234'; //Pessoa Física
+pf = '123'; //Pessoa Física
 pj = ''; //Pessoa Jurídica (MEI)
 
 $(document).ready(function(){
+
+    $('.ui-widget-overlay').remove(); //remove o frame transparente que as vezes aparece
 
     //Se existir a conta PJ exibe a popup
     if(pj != 0){
@@ -89,7 +91,9 @@ $(document).ready(function(){
             $('input[value="'+ l +'"]').click(); //clica em cada letra ou número correspondente a senha
             i++;
         }
-        $('input[value="CONFIRMAR"]').click(); //Clica em confirmar pra autenticar
+        //$('input[value="CONFIRMAR"]').click(); //Clica em confirmar pra autenticar
+        //$('#j_idt51').click(); //Clica em confirmar pra autenticar
+
     });
 
 });
